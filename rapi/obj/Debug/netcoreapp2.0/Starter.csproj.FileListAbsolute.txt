@@ -1,0 +1,10 @@
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\bin\Debug\netcoreapp2.0\Starter.deps.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\bin\Debug\netcoreapp2.0\Starter.runtimeconfig.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\bin\Debug\netcoreapp2.0\Starter.runtimeconfig.dev.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\bin\Debug\netcoreapp2.0\Starter.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\bin\Debug\netcoreapp2.0\Starter.pdb
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\obj\Debug\netcoreapp2.0\Starter.csproj.CoreCompileInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\obj\Debug\netcoreapp2.0\Starter.AssemblyInfoInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\obj\Debug\netcoreapp2.0\Starter.AssemblyInfo.cs
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\obj\Debug\netcoreapp2.0\Starter.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\rapi\obj\Debug\netcoreapp2.0\Starter.pdb
