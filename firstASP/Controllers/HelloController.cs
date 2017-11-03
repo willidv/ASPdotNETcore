@@ -3,12 +3,20 @@ using Microsoft.AspNetCore.Mvc;
  
 namespace firstASP.Controllers
 {
-    public class HelloController : Controller
+     public class HelloController : Controller
     {
-        [HttpGetAttribute]
+        [HttpGet]
+        [Route("index")]
         public string Index()
         {
             return "Hello World!";
         }
+        // A POST method
+        // [HttpPost]
+        // [Route("")]
+        // public IActionResult Other()
+        // {
+        //     // Return a view (We'll learn how soon!)
+        // }
     }
 }

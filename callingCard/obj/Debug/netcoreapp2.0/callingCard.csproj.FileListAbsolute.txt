@@ -1,0 +1,10 @@
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\bin\Debug\netcoreapp2.0\callingCard.deps.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\bin\Debug\netcoreapp2.0\callingCard.runtimeconfig.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\bin\Debug\netcoreapp2.0\callingCard.runtimeconfig.dev.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\bin\Debug\netcoreapp2.0\callingCard.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\bin\Debug\netcoreapp2.0\callingCard.pdb
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\obj\Debug\netcoreapp2.0\callingCard.csproj.CoreCompileInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\obj\Debug\netcoreapp2.0\callingCard.AssemblyInfoInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\obj\Debug\netcoreapp2.0\callingCard.AssemblyInfo.cs
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\obj\Debug\netcoreapp2.0\callingCard.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\callingCard\obj\Debug\netcoreapp2.0\callingCard.pdb

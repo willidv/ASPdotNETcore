@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 
-namespace firstASP
+namespace CallingCard
 {
     public class Startup
     {
@@ -21,7 +21,7 @@ namespace firstASP
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+       public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -34,21 +34,8 @@ namespace firstASP
                 app.UseDeveloperExceptionPage();
             }
             app.UseMvc();
-            app.UseStaticFiles();
-            
-            // app.UseMvc(routes =>
-            // {
-            //     routes.MapRoute(
-            //         name: "Default", // The route's name is only for our own reference
-            //         template: "", // The pattern that the route matches
-            //         defaults: new { controller = "Hello", action = "Index" } // The controller and method to execute
-            //     );
-            // });
 
-            // app.Run(async (context) =>
-            // {
-            //     await context.Response.WriteAsync("Hello World!");
-            // });
+            app.UseStaticFiles();
         }
     }
 }
