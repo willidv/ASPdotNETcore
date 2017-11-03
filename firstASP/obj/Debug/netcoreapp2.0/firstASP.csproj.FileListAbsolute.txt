@@ -1,0 +1,10 @@
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\bin\Debug\netcoreapp2.0\firstASP.deps.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\bin\Debug\netcoreapp2.0\firstASP.runtimeconfig.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\bin\Debug\netcoreapp2.0\firstASP.runtimeconfig.dev.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\bin\Debug\netcoreapp2.0\firstASP.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\bin\Debug\netcoreapp2.0\firstASP.pdb
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\obj\Debug\netcoreapp2.0\firstASP.csproj.CoreCompileInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\obj\Debug\netcoreapp2.0\firstASP.AssemblyInfoInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\obj\Debug\netcoreapp2.0\firstASP.AssemblyInfo.cs
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\obj\Debug\netcoreapp2.0\firstASP.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\firstASP\obj\Debug\netcoreapp2.0\firstASP.pdb
