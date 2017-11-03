@@ -33,7 +33,13 @@ namespace firstASP
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseMvc();
+            app.UseMvc( routes =>{
+                routes.MapRoute(
+                    name: "Default",
+                    template: "",
+                    defaults: new{controller = "Hello", action = "Index"}
+                );
+            });
             app.UseStaticFiles();
             
             // app.UseMvc(routes =>
