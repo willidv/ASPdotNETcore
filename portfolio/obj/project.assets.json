@@ -12523,11 +12523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David Williams\\Desktop\\School\\ASPDOTNETCORE\\time_display\\time_display.csproj",
-      "projectName": "time_display",
-      "projectPath": "C:\\Users\\David Williams\\Desktop\\School\\ASPDOTNETCORE\\time_display\\time_display.csproj",
+      "projectUniqueName": "C:\\Users\\David Williams\\Desktop\\School\\ASPDOTNETCORE\\portfolio\\portfolio.csproj",
+      "projectName": "portfolio",
+      "projectPath": "C:\\Users\\David Williams\\Desktop\\School\\ASPDOTNETCORE\\portfolio\\portfolio.csproj",
       "packagesPath": "C:\\Users\\David Williams\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David Williams\\Desktop\\School\\ASPDOTNETCORE\\time_display\\obj\\",
+      "outputPath": "C:\\Users\\David Williams\\Desktop\\School\\ASPDOTNETCORE\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

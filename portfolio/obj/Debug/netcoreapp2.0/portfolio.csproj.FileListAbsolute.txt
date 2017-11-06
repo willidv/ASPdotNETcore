@@ -1,0 +1,10 @@
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\bin\Debug\netcoreapp2.0\portfolio.deps.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\bin\Debug\netcoreapp2.0\portfolio.runtimeconfig.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\bin\Debug\netcoreapp2.0\portfolio.runtimeconfig.dev.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\bin\Debug\netcoreapp2.0\portfolio.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\bin\Debug\netcoreapp2.0\portfolio.pdb
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\obj\Debug\netcoreapp2.0\portfolio.csproj.CoreCompileInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\obj\Debug\netcoreapp2.0\portfolio.AssemblyInfoInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\obj\Debug\netcoreapp2.0\portfolio.AssemblyInfo.cs
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\obj\Debug\netcoreapp2.0\portfolio.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\portfolio\obj\Debug\netcoreapp2.0\portfolio.pdb
