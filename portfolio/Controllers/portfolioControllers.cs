@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
  
 namespace portfolio.Controllers
 {
      public class portfolioController : Controller
     {
+
         [HttpGet]
         [Route("Home")]
         public IActionResult Home()
@@ -23,6 +25,19 @@ namespace portfolio.Controllers
         [Route("Contact")]
         public IActionResult Contact()
         {
+           
+
+            return View("Contact");
+
+        }
+
+        [HttpPost]
+        [Route("method")]
+        public IActionResult Method(string name, string email, string message)
+        {
+            ViewBag.name = name;
+            ViewBag.email = email;
+            ViewBag.message = message;
             return View("Contact");
         }
         // A POST method

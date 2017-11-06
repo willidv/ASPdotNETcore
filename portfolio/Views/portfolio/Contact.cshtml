@@ -12,7 +12,7 @@
             <a href="Contact">Contact</a>
         </div>
         <h1>Contact</h1>
-        <form id="contact_form" action="" method="POST" enctype="multipart/form-data">
+        <form id="contact_form" action="method" method="POST" enctype="multipart/form-data">
             <div class="row">
                 <label for="name">Your name:</label><br />
                 <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -26,6 +26,11 @@
                 <textarea id="message" class="input" name="message"></textarea><br />
             </div>
             <input id="submit_button" type="submit" value="Send email" />
-        </form>						
+        </form>
+        <div class="input">
+           <p>@ViewBag.name</p>
+           <p>@ViewBag.email</p>
+           <p>@ViewBag.message</p>
+        </div>						
     </body>
 </html>
