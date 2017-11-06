@@ -1,0 +1,10 @@
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\bin\Debug\netcoreapp2.0\time_display.deps.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\bin\Debug\netcoreapp2.0\time_display.runtimeconfig.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\bin\Debug\netcoreapp2.0\time_display.runtimeconfig.dev.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\bin\Debug\netcoreapp2.0\time_display.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\bin\Debug\netcoreapp2.0\time_display.pdb
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\obj\Debug\netcoreapp2.0\time_display.csproj.CoreCompileInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\obj\Debug\netcoreapp2.0\time_display.AssemblyInfoInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\obj\Debug\netcoreapp2.0\time_display.AssemblyInfo.cs
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\obj\Debug\netcoreapp2.0\time_display.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\time_display\obj\Debug\netcoreapp2.0\time_display.pdb

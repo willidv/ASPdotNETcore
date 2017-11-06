@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
  
-namespace firstASP.Controllers
+namespace time_display.Controllers
 {
-     public class HelloController : Controller
+     public class time_displayController : Controller
     {
         [HttpGet]
         [Route("")]
