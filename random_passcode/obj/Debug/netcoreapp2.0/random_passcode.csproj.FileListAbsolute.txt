@@ -1,0 +1,10 @@
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\bin\Debug\netcoreapp2.0\random_passcode.deps.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\bin\Debug\netcoreapp2.0\random_passcode.runtimeconfig.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\bin\Debug\netcoreapp2.0\random_passcode.runtimeconfig.dev.json
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\bin\Debug\netcoreapp2.0\random_passcode.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\bin\Debug\netcoreapp2.0\random_passcode.pdb
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\obj\Debug\netcoreapp2.0\random_passcode.csproj.CoreCompileInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\obj\Debug\netcoreapp2.0\random_passcode.AssemblyInfoInputs.cache
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\obj\Debug\netcoreapp2.0\random_passcode.AssemblyInfo.cs
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\obj\Debug\netcoreapp2.0\random_passcode.dll
+C:\Users\David Williams\Desktop\School\ASPDOTNETCORE\random_passcode\obj\Debug\netcoreapp2.0\random_passcode.pdb
