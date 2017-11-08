@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Dojo Quotes</h1>
+<table>
+    <tr>
+        <th>Quote</th>
+        <th>Author</th>
+        <th>Created At</th>
+      
+    </tr>
+    @foreach(var quote in ViewBag.allQuotes) {
+        <tr>
+            <td>@quote["Quote"]</td>
+            <td>@quote["Author"]</td>
+            <td>@quote["created_at"]</td>
+        </tr>
+    }
+</table>
