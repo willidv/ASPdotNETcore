@@ -1,0 +1,11 @@
+<h3>Here is a list of all users:</h3>
+
+@{
+    foreach(var user in ViewBag.User)
+    {
+        <p>
+            First_Name: @user.First_Name
+            Last_Name: @user.Last_Name
+        </p>
+    }
+}

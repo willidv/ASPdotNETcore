@@ -1,0 +1,38 @@
+
+@model logreg.Models.HPusers
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Register</h1>
+<form asp-controller="User" asp-action="CreateUser" method="post">
+    <label asp-for="Reguser.First_Name"></label>
+    <input asp-for="Reguser.First_Name"/>
+
+    <label asp-for="Reguser.Last_Name"></label>
+    <input asp-for="Reguser.Last_Name"/>
+
+    <label asp-for="Reguser.Age"></label>
+    <input asp-for="Reguser.Age"/>
+
+    <label asp-for="Reguser.Email"></label>
+    <input asp-for="Reguser.Email"/>
+
+    <label asp-for="Reguser.Password"></label>
+    <input asp-for="Reguser.Password"/>
+    
+    <button type="submit">submit</button>
+</form>
+
+
+<h1>Login</h1>
+<form asp-controller="User" asp-action="LoginUser" method="post">
+    <label asp-for="LogUser.LogEmail"></label>
+    <input asp-for="LogUser.LogEmail"/>
+
+    <label asp-for="LogUser.LogPassword"></label>
+    <input asp-for="LogUser.LogPassword"/>
+    
+    <button type="submit">submit</button>
+</form>
