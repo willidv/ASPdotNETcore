@@ -1,0 +1,13 @@
+
+
+<h1>Reviews</h1>
+
+@foreach(var review in @ViewBag.AllReviews)
+{
+    <h5>Review for : @review.Restaurant_Name</h5>
+    <h5>@review.Opinion</h5><br>
+    <h5>Reviewer : @review.Reviewer_Name</h5><br>
+    <h5>Reviewed on : @review.date_visited.ToString("MM/dd/yyyy")</h5><br>
+    <h5>Rating for @review.Restaurant_Name : @review.stars</h5>
+    
+}
