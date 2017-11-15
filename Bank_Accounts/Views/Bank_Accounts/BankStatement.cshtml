@@ -1,0 +1,35 @@
+@using Bank_Accounts.Models
+@model WrapperVM
+@{
+        <h1>Welcome : @ViewBag.Bank_Account.User_Name</h1>
+        <h3>Your Account Balance is : @ViewBag.Bank_Account.Account_Balance</h3>
+
+
+
+<form asp-controller="Bank_Accounts" asp-action="Withdraw" method="post">
+    <label asp-for="Transaction.withdrawl"></label>
+    <input asp-for="Transaction.withdrawl"/>
+    <button type="submit">submit</button>
+</form>
+
+<form asp-controller="Bank_Accounts" asp-action="Deposit" method="post">
+    <label asp-for="Transaction.deposit"></label>
+    <input asp-for="Transaction.deposit"/>
+    <button type="submit">submit</button>
+</form>
+
+
+<h3>List of your Deposits</h3>
+
+@foreach(var transaction in @ViewBag.AccountTransactions)
+{
+    <p>@transaction.deposit on @ViewBag.Bank_Account.updated_at</p>
+}
+<h3>List of your Withdrawls</h3>
+
+@foreach(var transaction in @ViewBag.AccountTransactions)
+{
+    <p>@transaction.withdrawl on @ViewBag.Bank_Account.updated_at</p>
+}
+}
+<a href="Logout"><button type="button"  class="btn btn-primary" value="Logout">Logout</button></a><

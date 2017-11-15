@@ -1,0 +1,27 @@
+@model Bank_Accounts.Models.WrapperVM
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Register</h1>
+<form asp-controller="Bank_Accounts" asp-action="CreateOwner" method="post">
+    <label asp-for="RegisterVM.First_Name"></label>
+    <input asp-for="RegisterVM.First_Name"/>
+
+    <label asp-for="RegisterVM.Last_Name"></label>
+    <input asp-for="RegisterVM.Last_Name"/>
+
+
+    <label asp-for="RegisterVM.Email"></label>
+    <input asp-for="RegisterVM.Email"/>
+
+    <label asp-for="RegisterVM.Password"></label>
+    <input asp-for="RegisterVM.Password"/>
+
+    <label asp-for="RegisterVM.Password_Confirmation"></label>
+    <input asp-for="RegisterVM.Password_Confirmation"/>
+    
+    <button type="submit">submit</button>
+</form>
+<a href="LoginPage"><button type="button"  class="btn btn-primary" value="Login">Already Registered</button></a>
