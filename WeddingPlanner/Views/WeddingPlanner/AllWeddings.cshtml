@@ -1,0 +1,23 @@
+@model WeddingPlanner.Models.WrapperVM
+<a href="Logout"><button type="button"  class="btn btn-primary" value="Logout">Logout</button></a>
+
+<h1>All Weddings</h1>
+{
+    <table>
+        <tr>
+            <th>Wedding</th>
+            <th>Date</th>
+            <th>Guests</th>
+            <th>Action</th>
+        </tr>
+        @foreach(var wedding in @ViewBag.AllWeddings){
+            <tr>
+                <td><a href="/Weddings/@wedding.WeddingId/GoToWedding">@wedding.Wedder_One and @wedding.Wedder_Two</a></td>
+                <td>@wedding.Date</td>
+                <td>@wedding.Guests.Count</td>
+                <td><a href="/Weddings/@wedding.WeddingId/RSVP">RSVP</a></td>
+            </tr>
+        }
+    </table>
+}
+<a href="AddWedding"><button type="button"  class="btn btn-primary" value="AddWedding">Add a Wedding</button></a>

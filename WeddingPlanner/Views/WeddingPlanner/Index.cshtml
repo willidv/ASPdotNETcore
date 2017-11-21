@@ -1,0 +1,37 @@
+@model WeddingPlanner.Models.WrapperVM
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Register</h1>
+<div asp-validation-summary="All"></div>
+<form asp-controller="WeddingPlanner" asp-action="CreateUser" method="post">
+    <span asp-validation-for="RegisterVM.First_Name"></span>
+    <label asp-for="RegisterVM.First_Name"></label>
+    <input asp-for="RegisterVM.First_Name"/>
+
+    <span asp-validation-for="RegisterVM.Last_Name"></span>
+    <label asp-for="RegisterVM.Last_Name"></label>
+    <input asp-for="RegisterVM.Last_Name"/>
+
+    <span asp-validation-for="RegisterVM.Email"></span>
+    <label asp-for="RegisterVM.Email"></label>
+    <input asp-for="RegisterVM.Email"/>
+
+    <span asp-validation-for="RegisterVM.Password"></span>
+    <label asp-for="RegisterVM.Password"></label>
+    <input asp-for="RegisterVM.Password"/>
+
+    <span asp-validation-for="RegisterVM.Password_Confirmation"></span>
+    <label asp-for="RegisterVM.Password_Confirmation"></label>
+    <input asp-for="RegisterVM.Password_Confirmation"/>
+     @{
+    if(@ViewBag.emailExistsError != null){
+        <p class="error">@ViewBag.emailExistsError</p>
+    }
+}
+    <button type="submit">submit</button>
+</form>
+<a href="LoginPage"><button type="button"  class="btn btn-primary" value="Login">Already Registered</button></a>

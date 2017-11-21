@@ -1,0 +1,23 @@
+@model WeddingPlanner.Models.WrapperVM
+
+<h1>Add A Wedding</h1>
+<div asp-validation-summary="All"></div>
+<form asp-controller="WeddingPlanner" asp-action="CreateWedding" method="post">
+    <span asp-validation-for="Wedding.Wedder_One"></span>
+    <label asp-for="Wedding.Wedder_One"></label>
+    <input asp-for="Wedding.Wedder_One"/>
+
+    <span asp-validation-for="Wedding.Wedder_Two"></span>
+    <label asp-for="Wedding.Wedder_Two"></label>
+    <input asp-for="Wedding.Wedder_Two"/>
+
+    <span asp-validation-for="Wedding.Date"></span>
+    <label asp-for="Wedding.Date"></label>
+    <input asp-for="Wedding.Date"/>
+
+    <span asp-validation-for="Wedding.Address"></span>
+    <label asp-for="Wedding.Address"></label>
+    <input asp-for="Wedding.Address"/>
+    
+    <button type="submit">submit</button>
+</form>

@@ -1,0 +1,25 @@
+@model WeddingPlanner.Models.WrapperVM
+<a href="Logout"><button type="button"  class="btn btn-primary" value="Logout">Logout</button></a>
+
+<h3>The Wedding of @ViewBag.thisWedding.Wedder_One & @ViewBag.thisWedding.Wedder_Two</h3>
+
+<h5>Set on @ViewBag.thisWedding.Date</h5>
+
+<div>
+    <h6>Guests:</h6><br>
+    @foreach(var g in @ViewBag.WeddingGuests )
+    {
+    <p>@g.User.First_Name</p>
+    }
+</div>
+<div>
+<h5>Location: </h5>
+<p>@ViewBag.thisWedding.Address</p>
+     
+</div>
+
+    
+
+
+
+    

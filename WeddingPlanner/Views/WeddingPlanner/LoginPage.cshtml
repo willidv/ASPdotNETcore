@@ -1,0 +1,17 @@
+@model WeddingPlanner.Models.WrapperVM
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Login</h1>
+
+<form asp-controller="WeddingPlanner" asp-action="Login" method="post">
+    <label asp-for="LogUser.LogEmail"></label>
+    <input asp-for="LogUser.LogEmail"/>
+
+    <label asp-for="LogUser.LogPassword"></label>
+    <input asp-for="LogUser.LogPassword"/>
+
+    <button type="submit">submit</button>
+</form>
